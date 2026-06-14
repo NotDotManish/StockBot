@@ -1,0 +1,31 @@
+# ============================================================
+#  StockBot v2 — Python Dependencies
+#  Install with: pip install -r requirements.txt
+# ============================================================
+
+# --- Environment ---
+python-dotenv>=1.0.0
+
+# --- RSS / Atom Feed Parsing (covers RSS, Reddit, SEC EDGAR) ---
+feedparser>=6.0.11
+
+# --- HTML Cleaning (Reddit post descriptions) ---
+beautifulsoup4>=4.12.0
+
+# --- Twitter / X Scraping (unofficial, no API key required) ---
+tweety-ns>=1.0.9
+
+# --- Sentiment Analysis ---
+transformers>=4.40.0
+torch>=2.2.0
+sentencepiece>=0.1.99
+
+# --- HTTP (alerts module, tweety fallback) ---
+requests>=2.31.0
+
+# --- Scheduling ---
+APScheduler>=3.10.4
+
+# --- Pretty terminal output ---
+rich>=13.7.0
+colorlog>=6.8.0
